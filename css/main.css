@@ -1,0 +1,234 @@
+/* DEVELOPER: Amir Khan, IS117-003, Fall 2021 */
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;
+}
+
+li:hover {
+    color: #DBE9EE;
+}
+
+h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.headline1 {
+    color: gray;
+    float:left;
+    padding-left:15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h2 {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+}
+
+h3 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+h4 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+p {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.75em;
+}
+
+footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    height: 100px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-group {
+    padding: 2px 16px;
+}
+.jumbotron {
+    background-image: url("../images/gym.jpg");
+    background-size: cover;
+}
+.card-group {
+    max-width: 100%;
+
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+
+    /* Add empty space above the container (20% of the view height) */
+
+}
+.card {
+    /* Change background color */
+    background-color: white;
+
+    /* Add border */
+    border: 1px solid #bacdd8;
+
+    /* Add space between the border and the content */
+    padding: 8px;
+
+    border-radius: 12px;
+}
+.card-img-top {
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.card-text {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+}
+.aside1 {
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    word-wrap: break-word;
+    position:absolute;
+    right:60px;
+    top:80px;
+}
+.aside2 {
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    word-wrap: break-word;
+    position: absolute;
+    right: 60px;
+    top: 180px;
+}
+.aside3 {
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    word-wrap: break-word;
+    position: absolute;
+    right: 60px;
+    top: 330px;
+}
+.aside4 {
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    word-wrap: break-word;
+    position: absolute;
+    right: 60px;
+    top: 450px;
+}
+.card123 {
+    padding-top: 2.4em;
+}
+figcaption {
+    font-size: 14px;
+    color: antiquewhite;
+    line-height: 150%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
