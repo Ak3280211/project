@@ -78,7 +78,7 @@ h4 {
 p {
     color: #333;
     font-family: 'Varela Round', sans-serif;
-    font-size: 0.75em;
+    font-size: 12px;
 }
 
 footer {
@@ -153,74 +153,14 @@ button {
     border: none;
     padding: 12px 24px;
     border-radius: 50px;
-
     font-weight: 600;
     color: #0077ff;
     background-color: #e0efff;
-
-    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
     margin: 0 auto;
     display: block;
-
-    /* Button is a clickable element, therefore it should have a pointer cursor */
     cursor: pointer;
 }
-.aside1 {
-    width: 30%;
-    padding: 15px;
-    margin: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-    word-wrap: break-word;
-    position:absolute;
-    right:60px;
-    top:80px;
-}
-.aside2 {
-    width: 30%;
-    padding: 15px;
-    margin: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-    word-wrap: break-word;
-    position: absolute;
-    right: 60px;
-    top: 180px;
-}
-.aside3 {
-    width: 30%;
-    padding: 15px;
-    margin: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-    word-wrap: break-word;
-    position: absolute;
-    right: 60px;
-    top: 330px;
-}
-.aside4 {
-    width: 30%;
-    padding: 15px;
-    margin: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-    word-wrap: break-word;
-    position: absolute;
-    right: 60px;
-    top: 450px;
-}
-.card123 {
-    padding-top: 2.4em;
-}
-figcaption {
-    font-size: 14px;
-    color: antiquewhite;
-    line-height: 150%;
-}
+
 .footer {
     position: fixed;
     left: 0;
@@ -232,3 +172,4 @@ figcaption {
     padding: 10px;
     font-size: 1rem;
 }
+
